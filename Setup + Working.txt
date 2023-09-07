@@ -1,5 +1,7 @@
 This is a Python program that creates a graphical interface for a grid-based search algorithm.
 
+Algorithm : Dijkstra Algorithm 
+
 Setup:
 Things you require to run this code are:
 1. Python Supporter IDE (recommended - Visual Studio Code)
@@ -22,5 +24,8 @@ Working:
 7. It continuously updates the display to show the grid, with different colors for visited boxes, the path found, walls, and the start/target boxes.
 
 8. If there's no path to the target, it displays a message box saying "There is no solution."
+
+What's Next?
+After running the code you try to figure out setting the end point or destination point after constructing the obstacles. To place the end point or destination you use 'Right-Click" of your mouse or trackpad.
 
 In summary, this code creates a visual representation of a grid-based search algorithm where you can set up obstacles and a target, and it finds a path from a starting point to the target, displaying the process on the screen.
