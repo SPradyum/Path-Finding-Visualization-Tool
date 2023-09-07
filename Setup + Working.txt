@@ -1,0 +1,26 @@
+This is a Python program that creates a graphical interface for a grid-based search algorithm.
+
+Setup:
+Things you require to run this code are:
+1. Python Supporter IDE (recommended - Visual Studio Code)
+2. Python installed on your computer
+3. Installing 'pygame' library (run this command in the IDE Terminal : pip install pygame)
+
+Working:
+1. It uses two libraries, pygame for graphics and tkinter for creating message boxes.
+
+2. It sets up a window of size 800x800 pixels using pygame.
+
+3. It defines the size of the grid as 50x50 boxes within this window.
+
+4. It creates a grid of boxes and sets up some attributes for each box, like whether it's a start point, a wall, or a target.
+
+5. You can draw walls and set a target by clicking and right-clicking with your mouse within the grid.
+
+6. When you press a key, it starts a search algorithm to find a path from the start box to the target box. It uses a breadth-first search algorithm.
+
+7. It continuously updates the display to show the grid, with different colors for visited boxes, the path found, walls, and the start/target boxes.
+
+8. If there's no path to the target, it displays a message box saying "There is no solution."
+
+In summary, this code creates a visual representation of a grid-based search algorithm where you can set up obstacles and a target, and it finds a path from a starting point to the target, displaying the process on the screen.
