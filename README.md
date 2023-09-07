@@ -1,4 +1,5 @@
 #Path Finding Visualization Tool
+
 Description:
 
 Experience the power of the Dijkstra Algorithm in action with our interactive Python-based visualization project. This project offers a dynamic and user-friendly interface for understanding the renowned Dijkstra Algorithm—a fundamental tool in graph theory for finding the shortest path between nodes.
